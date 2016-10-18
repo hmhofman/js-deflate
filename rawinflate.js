@@ -1,5 +1,5 @@
 /*
- * $Id: rawinflate.js,v 0.3 2013/04/09 14:25:38 dankogai Exp dankogai $
+ * $Id: rawinflate.js,v 0.4 2014/03/01 21:59:08 dankogai Exp dankogai $
  *
  * GNU General Public License, version 2 (GPL-2.0)
  *   http://opensource.org/licenses/GPL-2.0
@@ -35,7 +35,7 @@ var zip_slide;
 var zip_wp;			// current position in slide
 var zip_fixed_tl = null;	// inflate static
 var zip_fixed_td;		// inflate static
-var zip_fixed_bl, fixed_bd;	// inflate static
+var zip_fixed_bl, zip_fixed_bd;	// inflate static
 var zip_bit_buf;		// bit buffer
 var zip_bit_len;		// bits in bit buffer
 var zip_method;
